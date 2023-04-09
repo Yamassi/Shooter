@@ -13,3 +13,7 @@ public interface IHealth
     void AddHealth(int health);
     void TakeDamage(int damage);
 }
+public interface IAnimate
+{
+    void SetMovementDirection(Vector2 movementDirection);
+}
