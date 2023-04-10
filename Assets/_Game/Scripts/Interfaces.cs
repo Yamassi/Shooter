@@ -1,7 +1,8 @@
 using UnityEngine;
 public interface IInput
 {
-    Vector2 GetInput();
+    Vector2 GetDirection();
+    bool GetFire();
 }
 
 public interface IMove
@@ -16,4 +17,8 @@ public interface IHealth
 public interface IAnimate
 {
     void SetMovementDirection(Vector2 movementDirection);
+}
+public interface IAim
+{
+    void SetAim(bool isFiring);
 }

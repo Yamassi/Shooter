@@ -872,6 +872,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.6428061
+      objectReference: {fileID: 0}
+    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.68598413
+      objectReference: {fileID: 0}
+    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 188479499171133391, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.772
+      objectReference: {fileID: 0}
     - target: {fileID: 2499821765946710060, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
         type: 3}
       propertyPath: m_Name
