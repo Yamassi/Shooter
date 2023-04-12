@@ -14258,8 +14258,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875803641}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -20, y: 2, z: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14268,7 +14268,7 @@ Transform:
   - {fileID: 1303073863}
   m_Father: {fileID: 1078709351574314764}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0, y: 0, z: 0}
 --- !u!198 &1875803644
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -19362,7 +19362,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fireFlash: {fileID: 23256055147742849}
   _raycastOrigin: {fileID: 6709577055213561007}
-  _hitEffect: {fileID: 0}
+  _hitEffect: {fileID: 1875803644}
+  _tracerEffect: {fileID: 7554181342700797310, guid: 7737768685bff4be693c33f0b4c335a5,
+    type: 3}
 --- !u!1 &1078709351882674724
 GameObject:
   m_ObjectHideFlags: 0
