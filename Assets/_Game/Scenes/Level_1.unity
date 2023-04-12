@@ -679,6 +679,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1875803644 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1875803644, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1078709352842359377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1931793635
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,50 +878,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.maxNumParticles
-      value: 300
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.05
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.6428061
-      objectReference: {fileID: 0}
-    - target: {fileID: 23256055147742849, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.maxNumParticles
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.68598413
-      objectReference: {fileID: 0}
-    - target: {fileID: 23536784709502503, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 188479499171133391, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
-        type: 3}
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.772
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875803642, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2499821765946710060, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
         type: 3}
@@ -977,6 +970,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4541336812047568451, guid: 06919ae1a56f6415c87f7ed3aed35d8f,
+        type: 3}
+      propertyPath: _hitEffect
+      value: 
+      objectReference: {fileID: 1875803644}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06919ae1a56f6415c87f7ed3aed35d8f, type: 3}
 --- !u!4 &3191221269513369117 stripped
